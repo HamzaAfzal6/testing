@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Roboto';
+    box-sizing: border-box;
+}
+.img{
+    width: 100%;
+    height: 10rem;
+}
+.form{
+    width: 120px;
+    margin-top: 20px;
+}
+
+.sliderimg {
+    width: 100%;
+    height: 480px;
+    object-fit:fill; /* This ensures the images maintain their aspect ratio and cover the entire width */
+  }
+
+  
+  .form-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+   
+     
+    padding: 20px;
+
+    
+  }
+  
+  .form {
+   
+    padding: 80px,80px;
+    max-width: 350px;
+    max-height: fit-content ; /* Adjust the width of the form */
+  width: 100%;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .signupform {
+    
+    padding: 20px; /* Adjust the padding, you can set it as per your requirement */
+    max-width: 600px; /* Adjust the width of the form */
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .signupform .form-row {
+    display: flex;
+    gap: 10px; /* Adjust the gap between form fields */
+  }
+  
+  .signupform .form-row .MuiFormControl-root {
+    flex: 1; /* This will make the form fields equally occupy the available space in the row */
+  }
+  
+  .signupform h1 {
+    margin-bottom: 20px; /* Add some spacing below the heading */
+  }
+  .signupform button {
+    
+    margin-bottom: 20px; 
+  }
+  
+  
+  
+
+  .form-wrapper .MuiFormControl-root {
+    margin-bottom: 20px;
+  }
+  .form-wrapper button {
+    margin-bottom: 20px;
+  }
+  .form-wrapper h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .form-wrapper p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .form-wrapper a {
+   color: blue;
+  }

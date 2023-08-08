@@ -1,0 +1,21 @@
+.skew-dvd {
+    width: 100%;
+    height: 150px;
+    
+    left: 0;
+    bottom: 0; /* Place the footer at the bottom of the page */
+    background: linear-gradient(to right top, #331c52 39%, #FEFBFF 50%), linear-gradient(140deg, #fff 16px, #000 0);
+  }
+  
+  /* Additional styles for the "dvd-theme" class */
+  .skew-dvd.dvd-theme {
+    /* Customize the background for the "dvd-theme" class */
+    background: linear-gradient(to right top, #331c52 49%, #fff 50%), linear-gradient(140deg, #fff 16px, #000 0);
+  }
+  .footer {
+    background-color: #331c52;
+    color: white;
+    text-align: center;
+    padding: 40px;
+   
+  }
